@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>ERIS / <?php echo $title;?></title>
+<title>Vistacare</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -185,11 +185,11 @@
         <div class="widget">
           <h5 class="widgetheading">Our Contact</h5>
           <address>
-          <strong>Our Company</strong><br>
-          JC Main Road, Near Silnile tower<br>
-           Pin-21542 NewYork US.</address>
+          <strong>VistaCare</strong><br>
+          Sibemaweg 20, 6224 DC Maastricht<br>
+          </address>
           <p>
-            <i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
+            <i class="icon-phone"></i> 088 001 5000 <br>
             <i class="icon-envelope-alt"></i>]
           </p>
         </div>
@@ -199,14 +199,14 @@
           <h5 class="widgetheading">Quick Links</h5>
           <ul class="link-list">
             <li><a href="<?php echo web_root; ?>index.php">Home</a></li>
-            <li><a href="<?php echo web_root; ?>index.php?q=hiring">Hiring</a></li>
-            <li><a href="<?php echo web_root; ?>index.php?q=Contact">Contact us</a></li>
+            <li><a href="<?php echo web_root; ?>index.php?q=hiring">Vacatures</a></li>
+            <li><a href="<?php echo web_root; ?>index.php?q=Contact">Contact</a></li>
           </ul>
         </div>
       </div>
       <div class="col-md-4 col-sm-4">
         <div class="widget">
-          <h5 class="widgetheading">Latest posts</h5>
+          <h5 class="widgetheading">Recente posts</h5>
           <ul class="link-list">
             <?php 
                   $sql = "SELECT * FROM `tblcompany` c,`tbljob` j WHERE c.`COMPANYID`=j.`COMPANYID`   ORDER BY DATEPOSTED DESC LIMIT 3" ;

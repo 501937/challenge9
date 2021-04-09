@@ -34,7 +34,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COMPANYADDRESS">Bedrijf Address:</label> 
+                      "COMPANYADDRESS">Bedrijf Adres:</label> 
                       <div class="col-md-8">
                         <textarea class="form-control input-sm" id="COMPANYADDRESS" name="COMPANYADDRESS" placeholder=
                             "Company Address" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"><?php echo $res->COMPANYADDRESS ;?></textarea>

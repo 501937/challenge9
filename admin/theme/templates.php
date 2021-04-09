@@ -2,12 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title><?php
-                // $query = "SELECT * FROM `tbltitle` WHERE TItleID=1";
-                // $res = mysql_query($query) or die(mysql_error());
-                // $viewTitle = mysql_fetch_assoc($res);
-                // echo $viewTitle['Title'];
-            ?>
+        <title>VistaCare
         </title>
        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <!-- Bootstrap 3.3.5 -->
@@ -53,7 +48,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>JB</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Job Portal</b></span>
+      <span class="logo-lg"><b>VistaCare</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" role="navigation">

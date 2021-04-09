@@ -159,11 +159,11 @@
               <div class="form-group">
                 <div class="col-md-7">
                   <label class="col-md-4 control-label" for=
-                  "DEGREE">Educational Attainment:</label>
+                  "DEGREE">Opleidingsniveau:</label>
 
                   <div class="col-md-8"> 
                     <input  class="form-control input-sm" id="DEGREE" name="DEGREE" placeholder=
-                        "Educational Attainment"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off" value="<?php echo $appl->DEGREE;?>">
+                        "Opleidingsniveau"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off" value="<?php echo $appl->DEGREE;?>">
                     </div>
                 </div>
               </div>  

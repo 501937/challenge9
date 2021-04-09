@@ -119,6 +119,7 @@
   ?>
     <?php require_once($content);?>
 
+<<<<<<< HEAD
 
 
 
@@ -153,9 +154,16 @@
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | M.M.S.S.K.B. </a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+=======
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> M.M.S.S.K.B.</p>
+>>>>>>> f1bcbe8c46c50267944cee64508b1f915f1c40d7
           </div>
         </div>
-      </div>
     </footer>
     
   

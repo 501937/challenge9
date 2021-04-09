@@ -96,8 +96,8 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-resume"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Zoek tussen miljoenen banen</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">Keuze uit meerdere vacatures</h3>
+                <p></p>
               </div>
             </div>      
           </div>
@@ -105,8 +105,8 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-collaboration"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Gemakkelijk te beheren banen</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">Hogere banen garantie</h3>
+                <p></p>
               </div>
             </div>    
           </div>
@@ -114,8 +114,8 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-promotions"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">De hoogste carrières</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">verschil in carrières</h3>
+                <p></p>
               </div>
             </div>      
           </div>
@@ -123,8 +123,8 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-employee"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">zoek deskundige kandidaten</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">fijne en behulpzame medewerkers en werkgevers</h3>
+                <p></p>
               </div>
             </div>      
           </div>

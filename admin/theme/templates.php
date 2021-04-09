@@ -46,7 +46,7 @@
     <!-- Logo -->
     <a href="<?php echo web_root;?>/admin/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>JB</b></span>
+      <span class="logo-mini"><b>VC</b></span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>VistaCare</b></span>
     </a>
@@ -54,7 +54,7 @@
     <nav class="navbar navbar-static-top" role="navigation">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Toggle navigatie</span>
       </a>
 
       <div class="navbar-custom-menu">
@@ -79,10 +79,10 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="<?php echo web_root.'admin/user/index.php?view=view&id='.$_SESSION['ADMIN_USERID'] ;?>" class="btn btn-default btn-flat">Profile</a>
+                  <a href="<?php echo web_root.'admin/user/index.php?view=view&id='.$_SESSION['ADMIN_USERID'] ;?>" class="btn btn-default btn-flat">Profiel</a>
                 </div>
                 <div class="pull-right">
-                  <a href="<?php echo web_root ;?>admin/logout.php" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="<?php echo web_root ;?>admin/logout.php" class="btn btn-default btn-flat">Afmelden</a>
                 </div>
               </li>
             </ul>
@@ -103,7 +103,7 @@
                                     <button class="close" data-dismiss="modal" type=
                                     "button">x</button>
 
-                                    <h4 class="modal-title" id="myModalLabel">Image.</h4>
+                                    <h4 class="modal-title" id="myModalLabel">Afbeelding.</h4>
                                 </div>
 
                                 <form action="<?php echo web_root; ?>admin/user/controller.php?action=photos" enctype="multipart/form-data" method=
@@ -129,8 +129,8 @@
 
                                     <div class="modal-footer">
                                         <button class="btn btn-default" data-dismiss="modal" type=
-                                        "button">Close</button> <button class="btn btn-primary"
-                                        name="savephoto" type="submit">Upload Photo</button>
+                                        "button">Sluiten</button> <button class="btn btn-primary"
+                                        name="savephoto" type="submit">Upload foto</button>
                                     </div>
                                 </form>
                             </div><!-- /.modal-content-->
@@ -161,11 +161,6 @@
             <i class="fa fa-suitcase"></i> <span>Vacature</span> 
           </a>
         </li>
-        <li class="<?php echo (currentpage() == 'employee') ? "active" : false;?>" >
-          <a href="<?php echo web_root ;?>admin/employee/">
-            <i class="fa fa-users"></i> <span>Medewerker</span> 
-          </a>
-        </li> 
         <li class="<?php echo (currentpage() == 'applicants') ? "active" : false;?>" > 
           <a href="<?php echo web_root ;?>admin/applicants/">
             <i class="fa fa-users"></i> <span>Sollicitanten</span> 

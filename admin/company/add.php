@@ -9,7 +9,7 @@
 
                 <div class="row">
                    <div class="col-lg-12">
-                      <h1 class="page-header">Voeg Nieuw Bedrijf Toe</h1>
+                      <h1 class="page-header">Bedrijf Toevoegen</h1>
                     </div>
                     <!-- /.col-lg-12 -->
                  </div> 
@@ -21,7 +21,7 @@
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="COMPANYNAME" name="COMPANYNAME" placeholder=
-                            "Company Name" type="text" value="" autocomplete="none">
+                            "Bedrijfsnaam" type="text" value="" autocomplete="none">
                       </div>
                     </div>
                   </div>
@@ -32,7 +32,7 @@
                       "COMPANYADDRESS">Bedrijf Address:</label> 
                       <div class="col-md-8">
                         <textarea class="form-control input-sm" id="COMPANYADDRESS" name="COMPANYADDRESS" placeholder=
-                            "Company Address" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"></textarea>
+                            "Bedrijf Address" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"></textarea>
                          <!-- <input class="form-control input-sm" id="COMPANYADDRESS" name="COMPANYADDRESS" placeholder="Company Address"   autocomplete="none"/>  -->
                       </div>
                     </div>
@@ -45,7 +45,7 @@
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="COMPANYCONTACTNO" name="COMPANYCONTACTNO" placeholder=
-                            "Company Contact No." type="text" value="" autocomplete="none">
+                            "Bedrijf Contact No." type="text" value="" autocomplete="none">
                       </div>
                     </div>
                   </div>  
@@ -69,7 +69,7 @@
                       "idno"></label>  
 
                       <div class="col-md-8">
-                         <button class="btn btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                         <button class="btn btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Opslaan</button>
                       <!-- <a href="index.php" class="btn btn-info"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<strong>Back</strong></a> -->
                      
                      </div>

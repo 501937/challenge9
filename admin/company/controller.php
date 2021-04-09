@@ -9,7 +9,7 @@ require_once ("../../include/initialize.php");
 $action = (isset($_GET['action']) && $_GET['action'] != '') ? $_GET['action'] : '';
 
 switch ($action) {
-	case 'add' :
+	case 'Toevoegen' :
 	doInsert();
 	break;
 	
@@ -17,7 +17,7 @@ switch ($action) {
 	doEdit();
 	break;
 	
-	case 'delete' :
+	case 'Verwijder' :
 	doDelete();
 	break;
 
@@ -25,12 +25,12 @@ switch ($action) {
 	}
    
 	function doInsert(){
-		if(isset($_POST['save'])){
+		if(isset($_POST['Opslaan'])){
 
  // `COMPANYNAME`, `COMPANYADDRESS`, `COMPANYCONTACTNO`
 		if ( $_POST['COMPANYNAME'] == "" || $_POST['COMPANYADDRESS'] == "" || $_POST['COMPANYCONTACTNO'] == "" ) {
 			$messageStats = false;
-			message("All field is required!","error");
+			message("Elk vak moet ingevuld worden!","error");
 			redirect('index.php?view=add');
 		}else{	
 			$company = New Company();
@@ -40,7 +40,7 @@ switch ($action) {
 			// $company->COMPANYMISSION	= $_POST['COMPANYMISSION'];
 			$company->create();
 
-			message("New company created successfully!", "success");
+			message("Bedrijf aangemaakt!", "success");
 			redirect("index.php");
 			
 		}
@@ -49,7 +49,7 @@ switch ($action) {
 	}
 
 	function doEdit(){
-		if(isset($_POST['save'])){
+		if(isset($_POST['Opslaan'])){
 
 			$company = New Company();
 			$company->COMPANYNAME		= $_POST['COMPANYNAME'];
@@ -58,7 +58,7 @@ switch ($action) {
 			// $company->COMPANYMISSION	= $_POST['COMPANYMISSION'];
 			$company->update($_POST['COMPANYID']);
 
-			message("Company has been updated!", "success");
+			message("Bedrijf bijgewerkt!", "success");
 			redirect("index.php");
 		}
 
@@ -76,7 +76,7 @@ switch ($action) {
 			$company = New Company();
 			$company->delete($id);
 
-			message("Company has been Deleted!","info");
+			message("Bedrijf Verwijderd!","info");
 			redirect('index.php');
 
 		// $id = $_POST['selector'];

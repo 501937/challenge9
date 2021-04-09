@@ -143,9 +143,7 @@
                             ?> 
                           </ul>
                        </li> 
-                        <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='company'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=company">Company</a></li>
                         <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='hiring'){ echo 'active'; }else{ echo ''; }} ?>"><a href="<?php echo web_root; ?>index.php?q=hiring">Hiring Now</a></li>
-                        <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='About'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=About">About Us</a></li>
                         <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='Contact'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=Contact">Contact</a></li>
                     </ul>
                 </div>
@@ -201,9 +199,7 @@
           <h5 class="widgetheading">Quick Links</h5>
           <ul class="link-list">
             <li><a href="<?php echo web_root; ?>index.php">Home</a></li>
-            <li><a href="<?php echo web_root; ?>index.php?q=company">Company</a></li>
             <li><a href="<?php echo web_root; ?>index.php?q=hiring">Hiring</a></li>
-            <li><a href="<?php echo web_root; ?>index.php?q=About">About us</a></li>
             <li><a href="<?php echo web_root; ?>index.php?q=Contact">Contact us</a></li>
           </ul>
         </div>
@@ -243,7 +239,7 @@
         <div class="col-lg-6">
           <div class="copyright">
             <p>
-              <span>&copy; Janno Palacios 2018 All right reserved.  
+              <span>&copy; 2021 All right reserved.  
             </p>
           </div>
         </div>

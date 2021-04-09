@@ -7,14 +7,6 @@ switch ($view) {
         $title="Submit Application";	
 		$content='applicationform.php';		
 		break;
-	case 'login' : 
-        $title="Login";	
-		$content='login.php';		
-		break;
-	case 'company' :
-        $title="Company";	
-		$content='company.php';		
-		break;
 	case 'hiring' :
 		$title = isset($_GET['search']) ? 'Hiring in '.$_GET['search'] :"Hiring"; 
 		$content='hirring.php';		

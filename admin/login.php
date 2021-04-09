@@ -14,7 +14,7 @@ require_once("../include/initialize.php");
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ERIS | Log in</title>
+  <title>VistaCare | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.5 -->
@@ -40,17 +40,17 @@ require_once("../include/initialize.php");
   </div> -->
   <!-- /.login-logo -->
   <div class="login-box-body" style="min-height: 400px;">
-    <h1 class="login-box-msg">Login to ERIS</h1>
+    <h1 class="login-box-msg">Admin Inlog</h1>
     <hr/>
     <p><?php check_message(); ?></p>
 
     <form action="" method="post">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Username" name="user_email">
+        <input type="text" class="form-control" placeholder="Gebruikersnaam" name="user_email">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password" name="user_pass">
+        <input type="password" class="form-control" placeholder="Wachtwoord" name="user_pass">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
         <div class="row">
@@ -63,7 +63,7 @@ require_once("../include/initialize.php");
         </div>   -->
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" name="btnLogin" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          <button type="submit" name="btnLogin" class="btn btn-primary btn-block btn-flat">Login</button>
         </div>
       </div>
         <!-- /.col -->

@@ -92,9 +92,9 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item <?php  if(!isset($_GET['q'])) {  echo 'active';}  ?>"><a href="<?php echo web_root; ?>" class="nav-link">Home</a></li> 
 	          <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>  -->
-            <li class="nav-item <?php  if(isset($_GET['q'])) { if($_GET['q']=='company'){ echo 'active'; }else{ echo ''; }}  ?>"><a class="nav-link"  href="<?php echo web_root; ?>index.php?q=company">Company</a></li>
+
             <li class="nav-item <?php  if(isset($_GET['q'])) { if($_GET['q']=='hiring'){ echo 'active'; }else{ echo ''; }} ?>"><a  class="nav-link" href="<?php echo web_root; ?>index.php?q=hiring">Hiring Now</a></li>
-            <li class="nav-item <?php  if(isset($_GET['q'])) { if($_GET['q']=='About'){ echo 'active'; }else{ echo ''; }}  ?>"><a  class="nav-link" href="<?php echo web_root; ?>index.php?q=About">About Us</a></li>
+
             <li class="nav-item <?php  if(isset($_GET['q'])) { if($_GET['q']=='Contact'){ echo 'active'; }else{ echo ''; }}  ?>"><a  class="nav-link" href="<?php echo web_root; ?>index.php?q=Contact">Contact</a></li>
             <?php if (!isset($_SESSION['APPLICANTID'])) { ?>
              <li   class="nav-item login"><a class="nav-link" data-target="#myModal" data-toggle="modal" href=""> <i class="fa fa-lock"></i> Login </a>

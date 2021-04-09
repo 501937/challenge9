@@ -4,7 +4,7 @@
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center text-md-left mb-5" data-scrollax=" properties: { translateY: '70%' }">
           	<p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-3"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact</span></p>
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contact Us</h1>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contacteer Ons</h1>
           </div>
         </div>
       </div>
@@ -14,20 +14,17 @@
       <div class="container">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
-            <h2 class="h3">Contact Information</h2>
+            <h2 class="h3">Contact Informatie</h2>
           </div>
           <div class="w-100"></div>
           <div class="col-md-3">
-            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            <p><span>Adres:</span> Sibemaweg 20, 6224 DC Maastricht</p>
           </div>
           <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            <p><span>Telefoonnummer:</span> <a href="tel://1234567920">+088 001 5000</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@vistacare.nl</a></p>
           </div>
         </div>
         <div class="row block-9">
@@ -53,7 +50,7 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div id="map" class="bg-white"></div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10076.769477197302!2d5.7174463!3d50.8461219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x952ffbf18f188c5c!2sVISTA%20college!5e0!3m2!1snl!2snl!4v1617960491929!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>

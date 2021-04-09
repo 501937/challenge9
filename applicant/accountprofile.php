@@ -17,12 +17,12 @@
               <div class="form-group">
                 <div class="col-md-7">
                 <label class="col-md-4 control-label" for=
-                  "FNAME">Firstname:</label>
+                  "FNAME">Voornaam:</label>
 
                   <div class="col-md-8">
                     <input name="JOBID" type="hidden" value="<?php echo $_GET['job'];?>">
                      <input class="form-control input-sm" id="FNAME" name="FNAME" placeholder=
-                        "Firstname" type="text" value="<?php echo $appl->FNAME;?>"  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+                        "Voornaam" type="text" value="<?php echo $appl->FNAME;?>"  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
                   </div>
                 </div>
               </div>
@@ -30,11 +30,11 @@
               <div class="form-group">
                 <div class="col-md-7">
                   <label class="col-md-4 control-label" for=
-                  "LNAME">Lastname:</label>
+                  "LNAME">Achternaam:</label>
 
                   <div class="col-md-8"> 
                     <input  class="form-control input-sm" id="LNAME" name="LNAME" placeholder=
-                        "Lastname"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off" value="<?php echo $appl->LNAME;?>">
+                        "Achternaam"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off" value="<?php echo $appl->LNAME;?>">
                     </div>
                 </div>
               </div>
@@ -42,11 +42,11 @@
               <div class="form-group">
                 <div class="col-md-7">
                   <label class="col-md-4 control-label" for=
-                  "MNAME">Middle Name:</label>
+                  "MNAME">Tussenvoegsel:</label>
 
                   <div class="col-md-8"> 
                     <input  class="form-control input-sm" id="MNAME" name="MNAME" placeholder=
-                        "Middle Name"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off" value="<?php echo $appl->MNAME;?>"> 
+                        "Tussenvoegsel"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off" value="<?php echo $appl->MNAME;?>"> 
                   </div>
                 </div>
               </div> 
@@ -67,18 +67,18 @@
               <div class="form-group">
                 <div class="col-md-7">
                   <label class="col-md-4 control-label" for=
-                  "Gender">Sex:</label>
+                  "Geslacht">Geslacht:</label>
 
                   <div class="col-md-8">
                    <div class="col-lg-5">
                       <div class="radio">
-                        <label><input checked id="optionsRadios1" checked="True" name="optionsRadios" type="radio" value="Female">Female</label>
+                        <label><input checked id="optionsRadios1" checked="True" name="optionsRadios" type="radio" value="Vrouw">Vrouw</label>
                       </div>
                     </div>
 
                     <div class="col-lg-4">
                       <div class="radio">
-                        <label><input id="optionsRadios2"   name="optionsRadios" type="radio" value="Male"> Male</label>
+                        <label><input id="optionsRadios2"   name="optionsRadios" type="radio" value="Man"> Man</label>
                       </div>
                     </div> 
                    
@@ -89,7 +89,7 @@
                <div class="form-group">
                 <div class="col-md-7">
                   <label class="col-md-4 control-label" for=
-                  "BIRTHDATE">Date of Birth:</label>
+                  "BIRTHDATE">Geboorte Datum:</label>
 
                   <div class="col-md-8">
                     <div class="input-group">
@@ -105,12 +105,12 @@
                <div class="form-group">
                   <div class="col-md-7">
                     <label class="col-md-4 control-label" for=
-                    "BIRTHPLACE">Place of Birth:</label>
+                    "BIRTHPLACE">Geboorteplaats:</label>
 
                     <div class="col-md-8">
                       
                        <textarea class="form-control input-sm" id="BIRTHPLACE" name="BIRTHPLACE" placeholder=
-                          "Place of Birth" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"><?php echo $appl->BIRTHPLACE;?></textarea>
+                          "Geboorteplaats" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"><?php echo $appl->BIRTHPLACE;?></textarea>
                     </div>
                   </div>
                 </div> 
@@ -132,14 +132,14 @@
                <div class="form-group">
                 <div class="col-md-7">
                   <label class="col-md-4 control-label" for=
-                  "CIVILSTATUS">Civil Status:</label>
+                  "CIVILSTATUS">Burgerlijke staat:</label>
 
                   <div class="col-md-8">
                     <select class="form-control input-sm" name="CIVILSTATUS" id="CIVILSTATUS">
-                        <option value="none" >Select</option>
+                        <option value="none" >Selecteer</option>
                         <option value="Single">Single</option>
-                        <option value="Married">Married</option>
-                        <option value="Widow" >Widow</option>
+                        <option value="Married">Getrouwd</option>
+                        <option value="Widow" >Weduwe</option>
                         <!-- <option value="Fourth" >Fourth</option> -->
                     </select> 
                   </div>

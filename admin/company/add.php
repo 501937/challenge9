@@ -9,7 +9,7 @@
 
                 <div class="row">
                    <div class="col-lg-12">
-                      <h1 class="page-header">Add New Company</h1>
+                      <h1 class="page-header">Voeg Nieuw Bedrijf Toe</h1>
                     </div>
                     <!-- /.col-lg-12 -->
                  </div> 
@@ -17,7 +17,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COMPANYNAME">Company Name:</label>
+                      "COMPANYNAME">Bedrijfsnaam:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="COMPANYNAME" name="COMPANYNAME" placeholder=
@@ -29,7 +29,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COMPANYADDRESS">Company Address:</label> 
+                      "COMPANYADDRESS">Bedrijf Address:</label> 
                       <div class="col-md-8">
                         <textarea class="form-control input-sm" id="COMPANYADDRESS" name="COMPANYADDRESS" placeholder=
                             "Company Address" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"></textarea>
@@ -41,7 +41,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COMPANYCONTACTNO">Company Contact No.:</label>
+                      "COMPANYCONTACTNO">Bedrijf Contact No.:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="COMPANYCONTACTNO" name="COMPANYCONTACTNO" placeholder=

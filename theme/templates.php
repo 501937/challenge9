@@ -93,11 +93,11 @@
 	          <li class="nav-item <?php  if(!isset($_GET['q'])) {  echo 'active';}  ?>"><a href="<?php echo web_root; ?>" class="nav-link">Home</a></li> 
 	          <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>  -->
 
-            <li class="nav-item <?php  if(isset($_GET['q'])) { if($_GET['q']=='hiring'){ echo 'active'; }else{ echo ''; }} ?>"><a  class="nav-link" href="<?php echo web_root; ?>index.php?q=hiring">Hiring Now</a></li>
+            <li class="nav-item <?php  if(isset($_GET['q'])) { if($_GET['q']=='hiring'){ echo 'active'; }else{ echo ''; }} ?>"><a  class="nav-link" href="<?php echo web_root; ?>index.php?q=hiring">Vacatures</a></li>
 
             <li class="nav-item <?php  if(isset($_GET['q'])) { if($_GET['q']=='Contact'){ echo 'active'; }else{ echo ''; }}  ?>"><a  class="nav-link" href="<?php echo web_root; ?>index.php?q=Contact">Contact</a></li>
             <?php if (!isset($_SESSION['APPLICANTID'])) { ?>
-             <li class="nav-item cta mr-md-2"><a href="<?php echo web_root; ?>admin/" class="nav-link">Post a Job</a></li>
+             <li class="nav-item cta mr-md-2"><a href="<?php echo web_root; ?>admin/" class="nav-link">Vacature Toevoegen</a></li>
              <?php }else{ ?>
 
               <li class="nav-item"><a class="nav-link" href="<?php echo web_root.'applicant/';?>"><i class="fa fa-user"></i> Howdy, <?php echo $appl->FNAME. ' '.$appl->LNAME ;?></a></li>

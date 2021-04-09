@@ -154,27 +154,26 @@
       <ul class="sidebar-menu"> 
         <li  class="<?php echo (currentpage() == 'index.php') ? "active" : false;?>" >
           <a href="<?php echo web_root ;?>admin/">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>  
           </a> 
         </li> 
         <li class="<?php echo (currentpage() == 'company') ? "active" : false;?>" >
           <a href="<?php echo web_root ;?>admin/company/">
-            <i class="fa fa-building"></i> <span>Company</span> 
+            <i class="fa fa-building"></i> <span>Bedrijf</span> 
           </a>
         </li>
         <li class="<?php echo (currentpage() == 'vacancy') ? "active" : false;?>" >
           <a href="<?php echo web_root ;?>admin/vacancy/">
-            <i class="fa fa-suitcase"></i> <span>Vacancy</span> 
+            <i class="fa fa-suitcase"></i> <span>Vacature</span> 
           </a>
         </li>
         <li class="<?php echo (currentpage() == 'employee') ? "active" : false;?>" >
           <a href="<?php echo web_root ;?>admin/employee/">
-            <i class="fa fa-users"></i> <span>Employee</span> 
+            <i class="fa fa-users"></i> <span>Medewerker</span> 
           </a>
         </li> 
         <li class="<?php echo (currentpage() == 'applicants') ? "active" : false;?>" > 
           <a href="<?php echo web_root ;?>admin/applicants/">
-            <i class="fa fa-users"></i> <span>Applicants</span> 
+            <i class="fa fa-users"></i> <span>Sollicitanten</span> 
             <span class="label label-primary pull-right">
               <?php
                 $sql = "SELECT count(*) as 'APPL' FROM `tbljobregistration` WHERE `PENDINGAPPLICATION`=1";
@@ -187,7 +186,7 @@
         </li> 
         <li class="<?php echo (currentpage() == 'category') ? "active" : false;?>" > 
           <a href="<?php echo web_root ;?>admin/category/">
-            <i class="fa fa-list"></i> <span>Category</span>  
+            <i class="fa fa-list"></i> <span>Categorie</span>  
           </a>
         </li> 
        <!--  <li class="treeview">
@@ -208,7 +207,7 @@
          
          <li class="<?php echo (currentpage() == 'user') ? "active" : false;?>">
           <a href="<?php echo web_root; ?>admin/user/">
-            <i class="fa fa-user"></i> <span>Manage Users</span> </a>
+            <i class="fa fa-user"></i> <span>Gebruiker Beheer</span> </a>
         </li>
         
       </ul>
@@ -265,11 +264,8 @@
 
 
   <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.2
-    </div>
-    <strong>Copyright &copy; 2018 <a href="#">Janno Palacios</a>.</strong> All rights
-    reserved.
+    Copyright &copy; 2021 M.M.S.S.K.B. All rights
+    reserved
   </footer>
 
   

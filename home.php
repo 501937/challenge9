@@ -4,14 +4,14 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-xl-10 ftco-animate mb-5 pb-5" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="mb-4 mt-5 pt-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We have great job offers you deserve!</p>
-            <h1 class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Your Dream <br><span>Job is Waiting</span></h1>
+            <p class="mb-4 mt-5 pt-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We hebben geweldige vacatures voor jou!</p>
+            <h1 class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Jouw droom <br><span>baan is aan het wachten</span></h1>
 
             <div class="ftco-search">
               <div class="row">
                 <div class="col-md-12 nav-link-wrap">
                   <div class="nav nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Find a Job</a>  
+                    <a class="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Vind een baan</a>  
                   </div>
                 </div>
                 <div class="col-md-12 tab-wrap">
@@ -26,7 +26,7 @@
                             <div class="form-group">
                               <div class="form-field">
                                 <div class="icon"><span class="icon-briefcase"></span></div>
-                                <input type="text"  name="SEARCH" class="form-control" placeholder="eg. Garphic. Web Developer">
+                                <input type="text"  name="SEARCH" class="form-control" placeholder="vb. Website Developer">
                               </div>
                             </div>
                           </div>
@@ -36,7 +36,7 @@
                                 <div class="select-wrap">
                                   <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                                   <select name="CATEGORY" class="form-control">
-                                    <option value="">Category</option>
+                                    <option value="">Categorieën</option>
                                     <?php
                                       $sql = "SELECT * FROM `tblcategory`";
                                       $mydb->setQuery($sql);
@@ -55,7 +55,7 @@
                               <div class="form-field">
                                 <div class="icon"><span class="icon-map-marker"></span></div>
                                  <select  name="COMPANY" class="form-control">
-                                    <option value="">Company</option>
+                                    <option value="">bedrijf</option>
                                    <?php
                                       $sql = "SELECT * FROM tblcompany";
                                       $mydb->setQuery($sql);
@@ -71,7 +71,7 @@
                           <div class="col-md">
                             <div class="form-group">
                               <div class="form-field">
-                                <input type="submit" value="Search" class="form-control btn btn-primary">
+                                <input type="submit" value="zoeken" class="form-control btn btn-primary">
                               </div>
                             </div>
                           </div>
@@ -96,7 +96,7 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-resume"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Search Millions of Jobs</h3>
+                <h3 class="heading mb-3">Zoek tussen miljoenen banen</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
             </div>      
@@ -105,7 +105,7 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-collaboration"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Easy To Manage Jobs</h3>
+                <h3 class="heading mb-3">Gemakkelijk te beheren banen</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
             </div>    
@@ -114,7 +114,7 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-promotions"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Top Careers</h3>
+                <h3 class="heading mb-3">De hoogste carrières</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
             </div>      
@@ -123,7 +123,7 @@
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-employee"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Search Expert Candidates</h3>
+                <h3 class="heading mb-3">zoek deskundige kandidaten</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
             </div>      

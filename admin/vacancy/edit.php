@@ -13,7 +13,7 @@
 
   <div class="row">
                    <div class="col-lg-12">
-                      <h1 class="page-header">Update Job Vacancy</h1>
+                      <h1 class="page-header">Update Vacature</h1>
                     </div>
                     <!-- /.col-lg-12 -->
                  </div> 
@@ -21,7 +21,7 @@
                  <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COMPANYNAME">Company Name:</label>
+                      "COMPANYNAME">Bedrijfs naam:</label>
 
                       <div class="col-md-8">
                         <input type="hidden" name="JOBID" value="<?php echo $res->JOBID;?>">
@@ -51,7 +51,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "CATEGORY">Category:</label>
+                      "CATEGORY">Categorie:</label>
 
                       <div class="col-md-8"> 
                         <select class="form-control input-sm" id="CATEGORY" name="CATEGORY">
@@ -80,7 +80,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "OCCUPATIONTITLE">Occupation Title:</label> 
+                      "OCCUPATIONTITLE">Beroeps titel:</label> 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="OCCUPATIONTITLE" name="OCCUPATIONTITLE" placeholder="Occupation Title"   autocomplete="none" value="<?php echo $res->OCCUPATIONTITLE; ?>"/> 
                       </div>
@@ -90,7 +90,7 @@
                     <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "REQ_NO_EMPLOYEES">Required no. of Employees:</label> 
+                      "REQ_NO_EMPLOYEES">Aantal gezochte werknemers:</label> 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="REQ_NO_EMPLOYEES" name="REQ_NO_EMPLOYEES" placeholder="Required no. of Employees"   autocomplete="none" value="<?php echo $res->REQ_NO_EMPLOYEES ?>"/> 
                       </div>
@@ -100,7 +100,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "SALARIES">Salary:</label> 
+                      "SALARIES">Salaris:</label> 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="SALARIES" name="SALARIES" placeholder="Salary"   autocomplete="none" value="<?php echo $res->SALARIES ?>"/> 
                       </div>
@@ -110,7 +110,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "DURATION_EMPLOYEMENT">Duration of Employment:</label> 
+                      "DURATION_EMPLOYEMENT">Duur van dienstverband:</label> 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="DURATION_EMPLOYEMENT" name="DURATION_EMPLOYEMENT" placeholder="Duration of Employment"   autocomplete="none" value="<?php echo $res->DURATION_EMPLOYEMENT ?>"/> 
                       </div>
@@ -120,7 +120,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "QUALIFICATION_WORKEXPERIENCE">Qualification/Work Experience:</label> 
+                      "QUALIFICATION_WORKEXPERIENCE">Qualificaties/Werk ervaring:</label> 
                       <div class="col-md-8">
                         <textarea class="form-control input-sm" id="QUALIFICATION_WORKEXPERIENCE" name="QUALIFICATION_WORKEXPERIENCE" placeholder="Qualification/Work Experience"   autocomplete="none" ><?php echo $res->QUALIFICATION_WORKEXPERIENCE ?></textarea> 
                       </div>
@@ -130,7 +130,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "JOBDESCRIPTION">Job Description:</label> 
+                      "JOBDESCRIPTION">Baan beschijving:</label> 
                       <div class="col-md-8">
                         <textarea class="form-control input-sm" id="JOBDESCRIPTION" name="JOBDESCRIPTION" placeholder="Job Description"   autocomplete="none"><?php echo $res->JOBDESCRIPTION ?></textarea> 
                       </div>
@@ -140,13 +140,13 @@
                  <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "PREFEREDSEX">Prefered Sex:</label> 
+                      "PREFEREDSEX">Geslachts voorkeur:</label> 
                       <div class="col-md-8">
                           <select class="form-control input-sm" id="PREFEREDSEX" name="PREFEREDSEX">
                           <option value="None">Select</option>
-                           <option <?php echo ($res->PREFEREDSEX=='Male') ? "SELECTED" :"" ?>>Male</option>
-                           <option <?php echo ($res->PREFEREDSEX=='Female') ? "SELECTED" :"" ?>>Female</option>
-                           <option <?php echo ($res->PREFEREDSEX=='Male/Female') ? "SELECTED" :"" ?>>Male/Female</option>
+                           <option <?php echo ($res->PREFEREDSEX=='Male') ? "SELECTED" :"" ?>>Man</option>
+                           <option <?php echo ($res->PREFEREDSEX=='Female') ? "SELECTED" :"" ?>>Vrouw</option>
+                           <option <?php echo ($res->PREFEREDSEX=='Male/Female') ? "SELECTED" :"" ?>>Man/vrouw</option>
                         </select>
                       </div>
                     </div>
@@ -155,7 +155,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "SECTOR_VACANCY">Sector of Vacancy:</label> 
+                      "SECTOR_VACANCY">Vacature sector:</label> 
                       <div class="col-md-8">
                         <textarea class="form-control input-sm" id="SECTOR_VACANCY" name="SECTOR_VACANCY" placeholder="Sector of Vacancy"   autocomplete="none"><?php echo $res->SECTOR_VACANCY ?></textarea> 
                       </div>

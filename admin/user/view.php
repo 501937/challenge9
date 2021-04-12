@@ -156,5 +156,3 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
               </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
-
- 

@@ -29,10 +29,10 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COMPANYADDRESS">Bedrijf Address:</label> 
+                      "COMPANYADDRESS">Bedrijf Adres:</label> 
                       <div class="col-md-8">
                         <textarea class="form-control input-sm" id="COMPANYADDRESS" name="COMPANYADDRESS" placeholder=
-                            "Bedrijf Address" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"></textarea>
+                            "Bedrijf Adres" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"></textarea>
                          <!-- <input class="form-control input-sm" id="COMPANYADDRESS" name="COMPANYADDRESS" placeholder="Company Address"   autocomplete="none"/>  -->
                       </div>
                     </div>
@@ -41,11 +41,11 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COMPANYCONTACTNO">Bedrijf Contact No.:</label>
+                      "COMPANYCONTACTNO">Bedrijf Contact Nu.:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="COMPANYCONTACTNO" name="COMPANYCONTACTNO" placeholder=
-                            "Bedrijf Contact No." type="text" value="" autocomplete="none">
+                            "Bedrijf Contact Nu." type="text" value="" autocomplete="none">
                       </div>
                     </div>
                   </div>  

@@ -6,7 +6,7 @@
 ?> 
 	<div class="row">
     <div class="col-lg-12">
-            <h1 class="page-header">List of Applicant's   </h1>
+            <h1 class="page-header">Lijst met Sollicitanten  </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -17,12 +17,12 @@
 
 							  <thead>
 							  	<tr>
-									<th>Applicant</th>
-									<th>Job Title</th>
-									<th>Company</th>
-									<th>Applied Date</th> 
-									<th>Remarks</th>
-									<th width="14%" >Action</th> 
+									<th>Sollicitant</th>
+									<th>Functietitel</th>
+									<th>Bedrijf</th>
+									<th>Toegepaste datum</th> 
+									<th>Opmerkingen</th>
+									<th width="14%" >Actie</th> 
 							  	</tr>	
 							  </thead> 
 							  <tbody>
@@ -42,9 +42,9 @@
 							  		echo '<td>'. $result->REMARKS.'</td>';  
 					  				echo '<td align="center" >    
 					  		             <a title="View" href="index.php?view=view&id='.$result->REGISTRATIONID.'"  class="btn btn-info btn-xs  ">
-					  		             <span class="fa fa-info fw-fa"></span> View</a> 
-					  		             <a title="Remove" href="controller.php?action=delete&id='.$result->REGISTRATIONID.'"  class="btn btn-danger btn-xs  ">
-					  		             <span class="fa fa-trash-o fw-fa"></span> Remove</a> 
+					  		             <span class="fa fa-info fw-fa"></span> </a> 
+					  		             <a title="Verwijder" href="controller.php?action=delete&id='.$result->REGISTRATIONID.'"  class="btn btn-danger btn-xs  ">
+					  		             <span class="fa fa-trash-o fw-fa"></span> </a> 
 					  					 </td>';
 							  		echo '</tr>';
 							  	} 

@@ -281,10 +281,10 @@ global $mydb;
 
 			}
 
-			message("Applicant is calling for an interview.", "success");
+			message("Sollicitant Vraagt voor gesprek.", "success");
 			redirect("index.php?view=view&id=".$id); 
 		}else{
-			message("cannot be sve.", "error");
+			message("Feedback Opgeslagen.", "success");
 			redirect("index.php?view=view&id=".$id); 
 		}
 

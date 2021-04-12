@@ -138,7 +138,7 @@ if (!isset($_SESSION['APPLICANTID'])) {
               <div class="form-group">
                 <input type="checkbox"> By Sign up you are agree with our <a href="#">terms and condition</a> 
               </div> 
-
+              
               <div class="form-group">
                 <input type="submit" value="Submit Application" name="submit" class="btn btn-primary py-3 px-5">
               </div>

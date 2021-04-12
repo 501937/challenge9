@@ -26,13 +26,13 @@
    $radio =  '<div class="col-md-8">
              <div class="col-lg-5">
                 <div class="radio">
-                  <label><input   id="optionsRadios1" name="optionsRadios" type="radio" value="Female">Female</label>
+                  <label><input   id="optionsRadios1" name="optionsRadios" type="radio" value="Female">Vrouw</label>
                 </div>
               </div>
 
               <div class="col-lg-4">
                 <div class="radio">
-                  <label><input id="optionsRadios2"  checked="True" name="optionsRadios" type="radio" value="Male">Male</label>
+                  <label><input id="optionsRadios2"  checked="True" name="optionsRadios" type="radio" value="Male">Man</label>
                 </div>
               </div> 
              
@@ -41,13 +41,13 @@
        $radio =  '<div class="col-md-8">
              <div class="col-lg-5">
                 <div class="radio">
-                  <label><input   id="optionsRadios1"  checked="True" name="optionsRadios" type="radio" value="Female">Female</label>
+                  <label><input   id="optionsRadios1"  checked="True" name="optionsRadios" type="radio" value="Female">Vrouw</label>
                 </div>
               </div>
 
               <div class="col-lg-4">
                 <div class="radio">
-                  <label><input id="optionsRadios2"  name="optionsRadios" type="radio" value="Male"> Male</label>
+                  <label><input id="optionsRadios2"  name="optionsRadios" type="radio" value="Male"> Man</label>
                 </div>
               </div> 
              
@@ -60,20 +60,20 @@
      case 'Single':
        # code...
         $civilstatus =' <select class="form-control input-sm" name="CIVILSTATUS" id="CIVILSTATUS">
-                                      <option value="none" >Select</option>
+                                      <option value="none" >Selecteer</option>
                                       <option SELECTED value="Single">Single</option>
-                                      <option value="Married">Married</option>
-                                      <option value="Widow" >Widow</option>
+                                      <option value="Married">Getrouwd</option>
+                                      <option value="Widow" >Weduwe</option>
                                       <!-- <option value="Fourth" >Fourth</option> -->
                                   </select> ';
        break;
      case 'Married':
        # code...
          $civilstatus=' <select class="form-control input-sm" name="CIVILSTATUS" id="CIVILSTATUS">
-                                      <option value="none" >Select</option>
+                                      <option value="none" >Selecteer</option>
                                       <option  value="Single">Single</option>
-                                      <option SELECTED value="Married">Married</option>
-                                      <option value="Widow" >Widow</option>
+                                      <option SELECTED value="Getrouwd">Getrouwd</option>
+                                      <option value="Widow" >Weduwe</option>
                                       <!-- <option value="Fourth" >Fourth</option> -->
                                   </select> ';
 
@@ -81,19 +81,19 @@
      case 'Widow':
        # code...
        $civilstatus=' <select class="form-control input-sm" name="CIVILSTATUS" id="CIVILSTATUS">
-                                      <option value="none" >Select</option>
+                                      <option value="none" >Selecteer</option>
                                       <option  value="Single">Single</option>
-                                      <option  value="Married">Married</option>
-                                      <option SELECTED value="Widow" >Widow</option>
+                                      <option  value="Married">Getrouwd</option>
+                                      <option SELECTED value="Widow" >Weduwe</option>
                                       <!-- <option value="Fourth" >Fourth</option> -->
                                   </select> ';
        break;
      default:
          $civilstatus=' <select class="form-control input-sm" name="CIVILSTATUS" id="CIVILSTATUS">
-                                      <option SELECTED value="none" >Select</option>
+                                      <option SELECTED value="none" >Selecteer</option>
                                       <option  value="Single">Single</option>
-                                      <option  value="Married">Married</option>
-                                      <option  value="Widow" >Widow</option> 
+                                      <option  value="Married">Getrouwd</option>
+                                      <option  value="Widow" >Weduwe</option> 
                                   </select> ';
          break;     
        
@@ -105,10 +105,10 @@
        # code...
         $workstatus ='
         <select class="form-control input-sm" name="WORKSTATS" id="WORKSTATS">
-                                      <option value="none" >Select</option>
-                                      <option value="Temporary">Temporary</option>
-                                      <option SELECTED  value="Regular">Regular</option>
-                                      <option value="Probationary">Probationary</option> 
+                                      <option value="none" >Selecteer</option>
+                                      <option value="Temporary">Tijdelijk</option>
+                                      <option SELECTED  value="Regular">Regelmatig</option>
+                                      <option value="Probationary">Proef</option> 
                                   </select> ';
        break;
 
@@ -116,20 +116,20 @@
        # code...
         $workstatus ='
         <select class="form-control input-sm" name="WORKSTATS" id="WORKSTATS">
-                                      <option value="none" >Select</option>
-                                      <option value="Temporary">Temporary</option>
-                                      <option SELECTED value="Regular">Regular</option>
-                                      <option value="Probationary">Probationary</option> 
+                                      <option value="none" >Selecteer</option>
+                                      <option value="Temporary">Tijdelijk</option>
+                                      <option SELECTED value="Regular">Regelmatig</option>
+                                      <option value="Probationary">Proef</option> 
                                   </select> ';
        break;
      case 'Probationary':
        # code...
          $workstatus='
          <select class="form-control input-sm" name="WORKSTATS" id="WORKSTATS">
-                                      <option value="none" >Select</option>
-                                      <option value="Temporary">Temporary</option>
-                                      <option value="Regular">Regular</option>
-                                      <option SELECTED value="Probationary">Probationary</option> 
+                                      <option value="none" >Selecteer</option>
+                                      <option value="Temporary">Tijdelijk</option>
+                                      <option value="Regular">Regelmatig</option>
+                                      <option SELECTED value="Probationary">Proef</option> 
                                   </select> ';
 
        break; 
@@ -137,10 +137,10 @@
      default:
         $workstatus='
        <select class="form-control input-sm" name="WORKSTATS" id="WORKSTATS">
-                                      <option SELECTED value="none" >Select</option>
-                                      <option value="Temporary">Temporary</option>
-                                      <option value="Regular">Regular</option>
-                                      <option value="Probationary">Probationary</option> 
+                                      <option SELECTED value="none" >Selecteer</option>
+                                      <option value="Temporary">Tijdelijk</option>
+                                      <option value="Regular">Regelmatig</option>
+                                      <option value="Probationary">Proef</option> 
                                   </select> ';
         break;
        
@@ -150,7 +150,7 @@
  ?> 
  
        <div class="center wow fadeInDown">
-             <h2 class="page-header">Update Employee</h2>
+             <h2 class="page-header">Bijwerken Werknemer</h2>
             <!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p> -->
         </div>
  
@@ -164,7 +164,7 @@
                  <div class="form-group">
                       <div class="col-md-8">
                         <label class="col-md-4 control-label" for=
-                        "FNAME">Firstname:</label>
+                        "FNAME">Voornaam:</label>
 
                         <div class="col-md-8"> 
                            <input class="form-control input-sm" id="FNAME" name="FNAME" placeholder=
@@ -176,7 +176,7 @@
                     <div class="form-group">
                       <div class="col-md-8">
                         <label class="col-md-4 control-label" for=
-                        "LNAME">Lastname:</label>
+                        "LNAME">Achternaam:</label>
 
                         <div class="col-md-8"> 
                           <input  class="form-control input-sm" id="LNAME" name="LNAME" placeholder=
@@ -188,7 +188,7 @@
                     <div class="form-group">
                       <div class="col-md-8">
                         <label class="col-md-4 control-label" for=
-                        "MNAME">Middle Name:</label>
+                        "MNAME">Tussenvoegsel:</label>
 
                         <div class="col-md-8"> 
                           <input  class="form-control input-sm" id="MNAME" name="MNAME" placeholder=
@@ -202,12 +202,12 @@
                    <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "ADDRESS">Address:</label>
+                      "ADDRESS">Adres:</label>
 
                       <div class="col-md-8">
                         
                          <textarea class="form-control input-sm" id="ADDRESS" name="ADDRESS" placeholder=
-                            "Address" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"><?php echo $emp->ADDRESS;?></textarea>
+                            "Adres" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off"><?php echo $emp->ADDRESS;?></textarea>
                       </div>
                     </div>
                   </div> 
@@ -216,7 +216,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "Gender">Sex:</label>
+                      "Gender">Geslacht:</label>
 
                       <?php
                         echo $radio;
@@ -230,12 +230,12 @@
                         <div class="col-md-8">
                           <h4>
                           <div class="col-md-4">
-                            <label class="col-lg-12 control-label">Date of Birth</label>
+                            <label class="col-lg-12 control-label">Geboortedatum</label>
                           </div>
 
                           <div class="col-lg-3">
                             <select class="form-control input-sm" name="month">
-                              <option>Month</option>
+                              <option>Maand</option>
                               <?php
 
 
@@ -257,7 +257,7 @@
  
                           <div class="col-lg-2">
                             <select class="form-control input-sm" name="day">
-                              <option>Day</option>
+                              <option>Dag</option>
                             <?php 
                              echo '<option SELECTED value='.$d.'>'.$d.'</option>';
                               $d = range(1, 31);
@@ -272,7 +272,7 @@
 
                           <div class="col-lg-3">
                             <select class="form-control input-sm" name="year">
-                              <option>Year</option>
+                              <option>Jaar</option>
                             <?php 
                                 echo '<option SELECTED value='.$y.'>'.$y.'</option>';
                                 $years = range(2010, 1900);
@@ -292,12 +292,12 @@
                     <div class="form-group">
                                 <div class="col-md-8">
                                   <label class="col-md-4 control-label" for=
-                                  "BIRTHPLACE">Place of Birth:</label>
+                                  "BIRTHPLACE">Geboorteplaats:</label>
 
                                   <div class="col-md-8">
                                     
                                      <textarea class="form-control input-sm" id="BIRTHPLACE" name="BIRTHPLACE" placeholder=
-                                        "Place of Birth" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" 
+                                        "Geboorteplaats" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" 
                                         autocomplete="off"><?php echo $emp->BIRTHPLACE;?></textarea>
                                   </div>
                                 </div>
@@ -307,12 +307,12 @@
                              <div class="form-group">
                               <div class="col-md-8">
                                 <label class="col-md-4 control-label" for=
-                                "TELNO">Conact No.:</label>
+                                "TELNO">Conact Nu.:</label>
 
                                 <div class="col-md-8">
                                   
                                    <input class="form-control input-sm" id="TELNO" name="TELNO" placeholder=
-                                      "Conact No." type="text" any value="<?php echo $emp->TELNO;?>" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+                                      "Conact Nu." type="text" any value="<?php echo $emp->TELNO;?>" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
                                 </div>
                               </div>
                             </div> 
@@ -320,7 +320,7 @@
                              <div class="form-group">
                               <div class="col-md-8">
                                 <label class="col-md-4 control-label" for=
-                                "CIVILSTATUS">Civil Status:</label>
+                                "CIVILSTATUS">Burgerlijke staat:</label>
 
                                 <div class="col-md-8">
                                   <?php echo $civilstatus; ?>
@@ -331,12 +331,12 @@
                             <div class="form-group">
                               <div class="col-md-8">
                                 <label class="col-md-4 control-label" for=
-                                "POSITION">Postion:</label>
+                                "POSITION">Positie:</label>
 
                                 <div class="col-md-8">
                                   
                                    <input class="form-control input-sm" id="POSITION" name="POSITION" placeholder=
-                                      "Postion" type="text" any value="<?php echo $emp->POSITION;?>" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+                                      "Positie" type="text" any value="<?php echo $emp->POSITION;?>" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
                                 </div>
                               </div>
                             </div>
@@ -347,7 +347,7 @@
                             <div class="form-group">
                               <div class="col-md-8">
                                 <label class="col-md-4 control-label" for=
-                                "DATEHIRED">Hired Date:</label>
+                                "DATEHIRED">Datum ingehuurd:</label>
 
                                 <div class="col-md-8">
                                   <div class="input-group " > 
@@ -365,9 +365,9 @@
                             <div class="form-group">
                               <div class="col-md-8">
                                 <label class="col-md-4 control-label" for=
-                                "EMP_EMAILADDRESS">Email Address:</label> 
+                                "EMP_EMAILADDRESS">E-mailadres:</label> 
                                 <div class="col-md-8">
-                                   <input type="Email" class="form-control input-sm" id="EMP_EMAILADDRESS" name="EMP_EMAILADDRESS" placeholder="Email Address"   autocomplete="false" value="<?php echo  $emp->EMP_EMAILADDRESS; ?>"/> 
+                                   <input type="Email" class="form-control input-sm" id="EMP_EMAILADDRESS" name="EMP_EMAILADDRESS" placeholder="E-mailadres"   autocomplete="false" value="<?php echo  $emp->EMP_EMAILADDRESS; ?>"/> 
                                 </div>
                               </div>
                             </div>  
@@ -376,11 +376,11 @@
                          <div class="form-group">
                             <div class="col-md-8">
                               <label class="col-md-4 control-label" for=
-                              "COMPANYNAME">Company Name:</label>
+                              "COMPANYNAME">Bedrijfsnaam:</label>
 
                               <div class="col-md-8"> 
                                 <select class="form-control input-sm" id="COMPANYID" name="COMPANYID">
-                                  <option value="None">Select</option>
+                                  <option value="None">Selecteer</option>
                                   <?php 
                                     $sql ="Select * From tblcompany WHERE COMPANYID=".$emp->COMPANYID;
                                     $mydb->setQuery($sql);
@@ -411,7 +411,7 @@
                       "idno"></label>
 
                       <div class="col-md-8">
-                       <button class="btn btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span>  Save</button> 
+                       <button class="btn btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span>  Opslaan</button> 
                           <!-- <a href="index.php" class="btn btn-info"><span class="fa fa-arrow-circle-left fw-fa"></span></span>&nbsp;<strong>List of Users</strong></a> -->
                        </div>
                     </div>

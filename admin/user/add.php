@@ -9,7 +9,7 @@
                        ?> 
  
          <div class="col-lg-12">
-            <h1 class="page-header">Add New User</h1>
+            <h1 class="page-header">Voeg Nieuwe Gebruiker</h1>
           </div>
           <!-- /.col-lg-12 --> 
 
@@ -18,12 +18,12 @@
                          <input id="user_id" name="user_id"  type="hidden" value="<?php echo $res->AUTO; ?>">      
                    <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for="U_NAME">Name:</label>
+                      <label class="col-md-4 control-label" for="U_NAME">Naam:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
                          <input class="form-control input-sm" id="U_NAME" name="U_NAME" placeholder=
-                            "User Fullname" type="text" value="">
+                            "Volledige naam" type="text" value="">
                       </div>
                     </div>
                   </div>
@@ -31,12 +31,12 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "U_USERNAME">Username:</label>
+                      "U_USERNAME">Gebruikersnaam:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
                          <input class="form-control input-sm" id="U_USERNAME" name="U_USERNAME" placeholder=
-                            "Account Username" type="text" value="">
+                            "Account Gebruikersnaam" type="text" value="">
                       </div>
                     </div>
                   </div>
@@ -44,23 +44,23 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "U_PASS">Password:</label>
+                      "U_PASS">Wachtwoord:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" minlength="2" value="">
-                         <input class="form-control input-sm" id="U_PASS" min="3" name="U_PASS" placeholder="Account Password" type="Password" value="" required>
+                         <input class="form-control input-sm" id="U_PASS" min="3" name="U_PASS" placeholder="Account Wachtwoord" type="Password" value="" required>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "U_ROLE">Role:</label>
+                      "U_ROLE">Rol:</label>
 
                       <div class="col-md-8">
                        <select class="form-control input-sm" name="U_ROLE" id="U_ROLE">
                           <option value="Administrator"  >Administrator</option>
-                          <option value="Staff"  >Staff</option>  
+                          <option value="Staff"  >Medewerker</option>  
                         </select> 
                       </div>
                     </div>
@@ -74,7 +74,7 @@
                       "idno"></label>
 
                       <div class="col-md-8">
-                       <button class="btn btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span>  Save</button>  
+                       <button class="btn btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span>  Opslaan</button>  
                        </div>
                     </div>
                   </div>

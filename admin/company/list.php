@@ -16,7 +16,7 @@
 				  <thead>
 				  	<tr>
 				  		<!-- <th>No.</th> -->
-				  		<th>Naaam</th> 
+				  		<th>Naam</th> 
 				  		<th>Adres</th> 
 				  		<th>Contact Nu.</th> 
 				  		 <th width="10%" align="center">Actie</th>

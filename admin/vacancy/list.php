@@ -27,7 +27,7 @@
 				  		<th>Geslachts voorkeur</th> 
 				  		<th>Vacature sector</th> 
 				  		<th>Baan Status</th> 
-				  		 <th width="10%" align="center">Action</th>
+				  		 <th width="10%" align="center">Actie</th>
 				  	</tr>	
 				  </thead> 
 				  <tbody>

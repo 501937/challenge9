@@ -40,7 +40,7 @@ switch ($action) {
 			// $company->COMPANYMISSION	= $_POST['COMPANYMISSION'];
 			$company->create();
 
-			message("New company created successfully!", "success");
+			message("Bedrijf Toegevoegd!", "success");
 			redirect("index.php");
 			
 		}
@@ -58,7 +58,7 @@ switch ($action) {
 			// $company->COMPANYMISSION	= $_POST['COMPANYMISSION'];
 			$company->update($_POST['COMPANYID']);
 
-			message("Company has been updated!", "success");
+			message("Bedrijf Bijgewerkt!", "success");
 			redirect("index.php");
 		}
 
@@ -76,7 +76,7 @@ switch ($action) {
 			$company = New Company();
 			$company->delete($id);
 
-			message("Company has been Deleted!","info");
+			message("Bedrijf Verwijderd!","info");
 			redirect('index.php');
 
 		// $id = $_POST['selector'];

@@ -12,7 +12,7 @@
  <form class="form-horizontal span6" action="controller.php?action=edit" method="POST">
 
           <fieldset>
-            <legend>Update Category</legend>
+            <legend>Update Catagorie</legend>
                       
 
                   <div class="form-group">

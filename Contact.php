@@ -31,19 +31,19 @@
           <div class="col-md-6 order-md-last d-flex">
             <form action="#" class="bg-white p-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" class="form-control" placeholder="uw naam">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" class="form-control" placeholder="uw Emailadres">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" placeholder="Onderwerpen">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Bericht"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input type="submit" value="Stuur Bericht" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           

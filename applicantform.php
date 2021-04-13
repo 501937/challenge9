@@ -38,27 +38,27 @@ if (!isset($_SESSION['APPLICANTID'])) {
               <div class="form-group">
                <input name="JOBID" type="hidden" value="<?php echo $_GET['job'];?>">
                <input class="form-control " id="FNAME" name="FNAME" placeholder=
-                  "Firstname" type="text" value=""  onkeyup="javascript:capitalize(this.id, this.value);" >
+                  "Voornaam" type="text" value=""  onkeyup="javascript:capitalize(this.id, this.value);" >
               </div>
               <div class="form-group">
-                   <input  class="form-control " id="LNAME" name="LNAME" placeholder="Lastname"  onkeyup="javascript:capitalize(this.id, this.value);" >
+                   <input  class="form-control " id="LNAME" name="LNAME" placeholder="Achternaam"  onkeyup="javascript:capitalize(this.id, this.value);" >
               </div>
               <div class="form-group">
-                <input  class="form-control " id="MNAME" name="MNAME" placeholder="Middle Name" onkeyup="javascript:capitalize(this.id, this.value);" > 
+                <input  class="form-control " id="MNAME" name="MNAME" placeholder="Tussenvoegsel" onkeyup="javascript:capitalize(this.id, this.value);" > 
               </div>
               <div class="form-group"> 
-                  <textarea class="form-control " id="ADDRESS" name="ADDRESS" placeholder="Address" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" ></textarea>
+                  <textarea class="form-control " id="ADDRESS" name="ADDRESS" placeholder="Adres" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" ></textarea>
               </div>
 
               <div class="form-group">   
-                Sex: 
-                    <input checked id="optionsRadios1" checked="True" name="optionsRadios" type="radio" value="Female">Female
-                     <input id="optionsRadios2"   name="optionsRadios" type="radio" value="Male"> Male   
+                Geslacht: 
+                    <input checked id="optionsRadios1" checked="True" name="optionsRadios" type="radio" value="Female">Vrouw
+                     <input id="optionsRadios2"   name="optionsRadios" type="radio" value="Male"> Man   
               </div>
 
 
-    <div class="form-group">  Date of Birth  
-        <select class="form-control-2" name="month">
+    <div class="form-group"> Geb.
+        <select class="form-control-2" name="Maand">
           <option>Month</option>
           <?php
 
@@ -72,7 +72,7 @@ if (!isset($_SESSION['APPLICANTID'])) {
                 } 
           ?>
         </select> 
-        <select class="form-control-2" name="day">
+        <select class="form-control-2" name="Dag">
           <option>Day</option>
         <?php 
           $d = range(31, 1);
@@ -83,7 +83,7 @@ if (!isset($_SESSION['APPLICANTID'])) {
         ?>
           
         </select> 
-        <select class="form-control-2" name="year">
+        <select class="form-control-2" name="Jaar">
           <option>Year</option>
         <?php 
           $years = range(2010, 1900);
@@ -97,50 +97,50 @@ if (!isset($_SESSION['APPLICANTID'])) {
       </div> 
  
               <div class="form-group">  
-                <textarea class="form-control " id="BIRTHPLACE" name="BIRTHPLACE" placeholder= "Place of Birth" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" ></textarea>
+                <textarea class="form-control " id="BIRTHPLACE" name="BIRTHPLACE" placeholder= "Geboorteplaats" type="text" value="" required  onkeyup="javascript:capitalize(this.id, this.value);" ></textarea>
               </div>
               <div class="form-group"> 
-                 <input class="form-control " id="TELNO" name="TELNO" placeholder= "Contact No." type="text" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" >
+                 <input class="form-control " id="TELNO" name="TELNO" placeholder= "Contact Nu." type="text" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" >
               </div>
               <div class="form-group">
                     <select class="form-control " name="CIVILSTATUS" id="CIVILSTATUS">
-                        <option value="none" >Select Civil Status</option>
+                        <option value="none" >Selecteer Burgerlijke staat</option>
                         <option value="Single">Single</option>
-                        <option value="Married">Married</option>
-                        <option value="Widow" >Widow</option> 
+                        <option value="Married">Getrouwd</option>
+                        <option value="Widow" >Weduwe</option> 
                     </select> 
                 
               </div>
               <div class="form-group">
-                   <input type="Email" class="form-control " id="EMAILADDRESS" name="EMAILADDRESS" placeholder="Email Address"   autocomplete="false"/>  
+                   <input type="Email" class="form-control " id="EMAILADDRESS" name="EMAILADDRESS" placeholder="E-mailadres"   autocomplete="false"/>  
               </div>
               <div class="form-group">
-                 <input  class="form-control " id="USERNAME" name="USERNAME" placeholder="Username"    onkeyup="javascript:capitalize(this.id, this.value);" >
+                 <input  class="form-control " id="USERNAME" name="USERNAME" placeholder="Gebruikersnaam"    onkeyup="javascript:capitalize(this.id, this.value);" >
                 
               </div>
               <div class="form-group">
-                   <input  class="form-control " id="PASS" name="PASS" placeholder="Password" type="password"   onkeyup="javascript:capitalize(this.id, this.value);" > 
+                   <input  class="form-control " id="PASS" name="PASS" placeholder="Password" type="Wachtwoord"   onkeyup="javascript:capitalize(this.id, this.value);" > 
                 
               </div>
               <div class="form-group">
-                  <input  class="form-control " id="DEGREE" name="DEGREE" placeholder="Educational Attainment"    onkeyup="javascript:capitalize(this.id, this.value);" >
+                  <input  class="form-control " id="DEGREE" name="DEGREE" placeholder="Opleidingsniveau"    onkeyup="javascript:capitalize(this.id, this.value);" >
                 
               </div>
 
 
              <div class="form-group"> 
-                 Attach your Resume here. 
+             Voeg hier je CV toe. 
                     <input id="picture" name="picture" type="file"  >
                     <input name="MAX_FILE_SIZE" type="hidden" value="1000000"> 
             </div>  
 
 
               <div class="form-group">
-                <input type="checkbox"> By Sign up you are agree with our <a href="#">terms and condition</a> 
+                <input type="checkbox"> Door u aan te melden gaat u akkoord met onze <a href="#">voorwaarden</a> 
               </div> 
               
               <div class="form-group">
-                <input type="submit" value="Submit Application" name="submit" class="btn btn-primary py-3 px-5">
+                <input type="submit" value="Sollicitatie opsturen" name="submit" class="btn btn-primary py-3 px-5">
               </div>
             </form>
 
@@ -153,12 +153,12 @@ if (!isset($_SESSION['APPLICANTID'])) {
                             <div class="row">
                                 <div class="panel panel-default">
                                     <div class="panel-header">
-                                        <div style="border-bottom: 1px solid #ddd;padding: 10px;font-size: 25px;font-weight: bold;color: #000;margin-bottom: 5px;">Attach your Resume here.
+                                        <div style="border-bottom: 1px solid #ddd;padding: 10px;font-size: 25px;font-weight: bold;color: #000;margin-bottom: 5px;">Voeg hier je CV toe.
                                             <input name="JOBID" type="hidden" value="<?php echo $_GET['job'];?>">
                                         </div>
                                     </div>
                                     <div class="panel-body"> 
-                                        <label class="col-md-2" for="picture" style="padding: 0;margin: 0;">Attachtment File:</label> 
+                                        <label class="col-md-2" for="picture" style="padding: 0;margin: 0;">Attachtment-bestand:</label> 
                                         <div class="col-md-10" style="padding: 0;margin: 0;">
                                             <input id="picture" name="picture" type="file">
                                             <input name="MAX_FILE_SIZE" type="hidden" value="1000000"> 
@@ -169,8 +169,8 @@ if (!isset($_SESSION['APPLICANTID'])) {
                         </div>
                        <div class="form-group">
                         <div class="col-md-12"> 
-                             <button class="btn btn-primary btn-md pull-right" name="submit" type="submit" >Submit <span class="fa fa-arrow-right"></span></button>
-                          <a href="index.php" class="btn btn-info"><span class="fa fa-arrow-left"></span>&nbsp;<strong>Back</strong></a> 
+                             <button class="btn btn-primary btn-md pull-right" name="submit" type="submit" >Verzenden <span class="fa fa-arrow-right"></span></button>
+                          <a href="index.php" class="btn btn-info"><span class="fa fa-arrow-left"></span>&nbsp;<strong>Terug</strong></a> 
                         </div>
                        </div> 
                     </form>

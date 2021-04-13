@@ -71,7 +71,7 @@
                           <div class="col-md">
                             <div class="form-group">
                               <div class="form-field">
-                                <input type="submit" value="search" class="form-control btn btn-primary">
+                                <input type="submit" value="zoeken" class="form-control btn btn-primary">
                               </div>
                             </div>
                           </div>

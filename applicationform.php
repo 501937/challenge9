@@ -4,8 +4,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center text-md-left mb-5" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-3"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Apply Now</span></p>
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Apply Now</h1>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-3"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Solliciteer</span></p>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Solliciteer Nu</h1>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ $result = $mydb->loadSingleResult();
 
 
 
-            <h2 class="page-header" >Job Details</h2>
+            <h2 class="page-header" >Details van de baan</h2>
            
         </div>
         <div class="row block-9">
@@ -51,37 +51,37 @@ $result = $mydb->loadSingleResult();
                                   <div class="row contentbody">
                                         <div class="col-md-6">
                                             <ul>
-                                                <li><i class="fp-ht-bed"></i>Required No. of Employee's : <?php echo $result->REQ_NO_EMPLOYEES; ?></li>
-                                                <li><i class="fp-ht-food"></i>Salary : <?php echo number_format($result->SALARIES,2);  ?></li>
-                                                <li><i class="fa fa-sun-"></i>Duration of Employment : <?php echo $result->DURATION_EMPLOYEMENT; ?></li>
+                                                <li><i class="fp-ht-bed"></i>Vereist aantal werknemers : <?php echo $result->REQ_NO_EMPLOYEES; ?></li>
+                                                <li><i class="fp-ht-food"></i>Salaris : <?php echo number_format($result->SALARIES,2);  ?></li>
+                                                <li><i class="fa fa-sun-"></i>Duur van dienstverband : <?php echo $result->DURATION_EMPLOYEMENT; ?></li>
                                             </ul>
                                         </div>
                                         <div class="col-md-6">
                                             <ul> 
-                                                <li><i class="fp-ht-tv"></i>Prefered Sex : <?php echo $result->PREFEREDSEX; ?></li>
-                                                <li><i class="fp-ht-computer"></i>Sector of Vacancy : <?php echo $result->SECTOR_VACANCY; ?></li>
+                                                <li><i class="fp-ht-tv"></i>Voorkeursgeslacht : <?php echo $result->PREFEREDSEX; ?></li>
+                                                <li><i class="fp-ht-computer"></i>vacature sector : <?php echo $result->SECTOR_VACANCY; ?></li>
                                             </ul>
                                         </div>
                                         <div class="col-md-12">
-                                            <p>Qualification/Work Experience :</p>
+                                            <p>Kwalificatie/Werkervaring :</p>
                                              <ul style="list-style: none;"> 
                                                 <li><?php echo $result->QUALIFICATION_WORKEXPERIENCE ;?></li> 
                                             </ul> 
                                         </div>
                                         <div class="col-md-12"> 
-                                            <p>Job Description:</p>
+                                            <p>Functieomschrijving:</p>
                                             <ul style="list-style: none;"> 
                                                  <li><?php echo $result->JOBDESCRIPTION ;?></li> 
                                             </ul> 
                                          </div>
                                         <div class="col-md-12">
-                                            <p>Employer :  <?php echo  $result->COMPANYNAME; ?></p> 
-                                            <p>Location :  <?php echo  $result->COMPANYADDRESS; ?></p>
+                                            <p>Werkgever :  <?php echo  $result->COMPANYNAME; ?></p> 
+                                            <p>Locatie :  <?php echo  $result->COMPANYADDRESS; ?></p>
                                         </div>
                                     </div>
                          </div>
                          <div class="panel-footer">
-                              Date Posted :  <?php echo date_format(date_create($result->DATEPOSTED),'M d, Y'); ?>
+                         publicatiedatum :  <?php echo date_format(date_create($result->DATEPOSTED),'M d, Y'); ?>
                          </div>
                      </div> 
 
